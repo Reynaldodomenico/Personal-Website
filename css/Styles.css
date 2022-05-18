@@ -3,13 +3,22 @@ div {
   width: 100%;
 }
 
+.profile-picture{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+
 body {
   margin: 0px;
   text-align: center;
+  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
   margin-top: 0px;
+  font-family: 'Sacramento', cursive;
 }
 
 .topcontainer {
@@ -18,23 +27,20 @@ h1 {
   padding-top: 100px;
 }
 .middlecontainer {
-  background-color: red;
-  height: 300px;
-  width: 200px;
+  
 }
 
 .bottomcontainer {
-  background-color: blue;
-  height: 300px;
-  width: 200px;
+  
 }
 
 .topcloud {
   position: absolute;
-  right: 600px;
+  right: 30%;
   top: 50px;
 }
 
 .bottomcloud {
   position: absolute;
+  left: 30%;
 }
